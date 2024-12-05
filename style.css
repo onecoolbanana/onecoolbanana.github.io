@@ -1,0 +1,113 @@
+﻿html {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+
+::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+.primary-color
+{
+	background-color:#161D2A;
+	color: #F8EEE2;
+	font-family: Andale Mono, monospace;
+	margin-right: 26%;
+	margin-left: 26%;
+}
+
+.title{
+	color: #F8EEE2;
+	font-family: Andale Mono, monospace;
+	font-size: 25px;
+}
+
+
+.content{
+	outline: 1px solid white;
+	border-radius: 5px;
+	background-color: #202A3B;
+}
+
+p.content-title{
+	padding: 2%;
+	font-size: 19px;
+	font-weight: 1000;
+	margin-bottom: -6%;
+	text-align: justify;
+}
+
+p.content-text{
+	padding: 4%;
+	text-align: justify;	
+}
+
+p.content-text-image{
+	padding: 4%;
+	text-align: justify;
+	margin-right: 50%
+}
+
+.content-image{
+	float: right;
+	width: auto;
+	height: 120px;
+	padding: 4%;
+	margin-top: -15px;
+}
+
+ul.top {
+  list-style-type: none;
+  margin-left: -2%;
+  margin-right: -2%;
+  padding: 0;
+  overflow: hidden;
+  border-bottom: 1px solid white;
+
+}
+
+ul.bottom{
+  list-style-type: none;
+  margin-left: -2%;
+  margin-right: -2%;
+  padding: 0;
+  overflow: hidden;
+  border-top: 1px solid white;
+  bottom: 0;
+  position: fixed;
+  width: 52%;
+  background-color: #161D2A;
+  margin-bottom: -0.5%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+a.active:hover{
+  background-color: rgb(233, 233, 233);
+  animation: hover;
+  animation-duration: 0.2s;
+  color: #161D2A;
+}
+
+.active-bottom:hover{
+  animation: hover;
+  animation-duration: 0.2s;
+  color: #5E81FF;
+}
+
+.svg:hover{
+  animation: hover;
+  animation-duration: 0.2s;
+  fill: #5E81FF;
+}
